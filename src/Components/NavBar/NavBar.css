@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .Navbar {
   display: flex;
@@ -6,7 +6,7 @@
 }
 .nav-logo { 
   display: flex;
-  width: 40%;
+  width: 26%;
   justify-content: center;
 }
 
@@ -20,17 +20,17 @@
 
 .NavOptions {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   z-index: 10;
-  width: 50%;
+  width: 40%;
 }
 
 .NavOptions a {
   margin-top: 40px;
   color: rgb(254, 254, 254);
-  margin-right: 20px;
-  font-weight: bold;
-  font-size: 18px;
+  margin-right: 10px;
+  font-weight: Light 300;
+  font-size: 16px;
   text-decoration: none;
 }
 
@@ -38,7 +38,7 @@
   border-radius: 10px;
   background-color: white;
   color:rgb(188, 220, 140);
-  font-weight: bold;
+  font-weight: Light 300;
   font-size: 16px;
   margin-top: 25px;
   margin-right: 90px;

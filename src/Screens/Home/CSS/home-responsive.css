@@ -1,10 +1,9 @@
 
 @media only screen and (max-width: 1400px) {
     .home-image-background {
-        right: -340px !important;
+        right: -250px !important;
     }
   }
-  
   @media only screen and (max-width: 1030px) {
       .home-image-background {
        opacity: 0.4;

@@ -10,10 +10,8 @@ const Home = () => {
         <div>
             <NavBar />
         <div className='Home'>
-
         <img className='home-image-background' src={bg} alt="bg" />
             </div>
-
             <div className='home-text-wrapper'>
             <div className='home-text'>
                 <h2>Ready for <br/>

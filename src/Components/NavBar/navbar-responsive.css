@@ -2,7 +2,12 @@
 /* HIDE OPTION BUTTON */
 @media only screen and (max-width: 1400px) {
   .NavOptions {
-    width: 53%;
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 1207px) {
+  .NavOptions {
+    width: 48%;
   }
 }
 
