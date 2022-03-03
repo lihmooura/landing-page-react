@@ -1,0 +1,16 @@
+
+/* HIDE OPTION BUTTON */
+@media only screen and (max-width: 1400px) {
+  .NavOptions {
+    width: 53%;
+  }
+}
+
+@media only screen and (max-width: 1030px) {
+    .NavOptions {
+     display: none;
+    }
+    .iconDrop { 
+        display: block;
+    }
+  }

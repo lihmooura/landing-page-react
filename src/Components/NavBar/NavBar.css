@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-logo { 
+  display: flex;
+  width: 40%;
+  justify-content: center;
+}
+
+.Navbar h2 {
+  margin-top: 40px;
+  color: rgb(180, 230, 106);
+  font-size: 28px;
+}
+
+/* NAVBAR OPTIONS */
+
+.NavOptions {
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 10;
+  width: 50%;
+}
+
+.NavOptions a {
+  margin-top: 40px;
+  color: rgb(254, 254, 254);
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.NavOptions button {
+  border-radius: 10px;
+  background-color: white;
+  color:rgb(188, 220, 140);
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 25px;
+  margin-right: 90px;
+  width: 140px;
+  height: 55px;
+  cursor: pointer;
+}
+
+/* ICON */
+
+.iconDrop { 
+  display: none;
+  margin-top: 45px;
+  margin-right: 55px;
+}
+
+.iconDrop button {
+  border-color: white;
+  background-color: white;
+  color:rgb(188, 220, 140);
+  width: 40px;
+  height: 50px;
+  margin: 40px;
+}
