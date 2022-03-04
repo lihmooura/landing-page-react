@@ -1,0 +1,19 @@
+@media only screen and (max-width: 1169px) {
+  .Join-page-wrapper {
+    width: 100%;
+    margin-left: 10px;
+    height: 100vh;
+  }
+  .Join-page-text {
+    width:50%;
+  }
+  .Join-page-bg {
+   display: none;
+  }
+}
+
+@media only screen and (max-width: 701px) {
+  .Join-page-text {
+    width:80%;
+  }
+}
