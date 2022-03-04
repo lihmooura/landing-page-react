@@ -1,6 +1,7 @@
-import Home from './Screens/Home/HomePage'
+import HomePage from './Screens/Home - First/HomePage'
 import './App.css'
-import RecipeList from './Screens/RecipeList/RecipeList'
+import RecipeList from './Screens/RecipeList - Second/RecipeList'
+import BestServices from './Screens/BestServices - Third/BestServices';
 
 
 
@@ -8,10 +9,13 @@ function App() {
   return (
     <div className="App">
       <div>
-      <Home />
+      <HomePage />
       </div>
       <div>
       <RecipeList />
+      </div>
+      <div>
+        <BestServices />
       </div>
     </div>
   );

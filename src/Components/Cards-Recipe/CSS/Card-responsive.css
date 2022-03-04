@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1126px) {
+    .Card {
+        max-width: 48% !important;
+    }
+    .Card-title {
+        font-size: 2.5vw !important;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .Card {
+        max-width: 80% !important;
+    }
+  }
+  @media only screen and (max-width: 540px) {
+    .Card {
+        max-width: 95% !important;
+        
+    }
+    .Card-title {
+        font-size: 3.5vw !important;
+    }
+  }

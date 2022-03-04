@@ -5,13 +5,14 @@ import './CSS/home-responsive.css'
 import bg from './Assets/bg.svg'
 import './CSS/HomePage.css'
 
-const Home = () => {
+const HomePage = () => {
     return (
         <div>
             <NavBar />
         <div className='Home'>
         <img className='home-image-background' src={bg} alt="bg" />
             </div>
+
             <div className='home-text-wrapper'>
             <div className='home-text'>
                 <h2>Ready for <br/>
@@ -27,4 +28,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default HomePage;

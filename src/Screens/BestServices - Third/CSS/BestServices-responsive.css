@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1260px) {
+    .BestService {
+        justify-content: center;
+    }
+    .BestService-img {
+        margin-left: -10%
+    }
+}
+@media only screen and (max-width: 1094px) {
+    .BestService-text  {
+        width: 100% !important;
+        align-items: center;
+    }
+    .BestService-img {
+       display: none;
+    }
+}
+
+@media only screen and (max-width: 832px) {
+    .BestService-text  {
+        width: 100% !important;
+        align-items: center;
+    }
+}

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import './NavBar.css';
-import './navbar-responsive.css';
+import './CSS/NavBar.css';
+import './CSS/navbar-responsive.css';
 
 
 const NavBar = () => {

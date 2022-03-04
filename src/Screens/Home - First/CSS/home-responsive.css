@@ -1,24 +1,19 @@
 
-@media only screen and (max-width: 1400px) {
-    .home-image-background {
-        right: -250px !important;
-    }
-  }
   @media only screen and (max-width: 1030px) {
-      .home-image-background {
-       opacity: 0.4;
-       right: -360px;
-       z-index: 0 !important
-      }
+
       .home-text-wrapper { 
           width: 60% !important;
           z-index: 25 !important;
+          justify-content: center !important;
       }
+      .home-image-background {
+        display: none;
+    }
     }
 
     @media only screen and (max-width: 700px) {
         .home-image-background {
-            opacity: 0.2 !important;
+            display: none;
            }
         .home-text-wrapper { 
             width: 100% !important;

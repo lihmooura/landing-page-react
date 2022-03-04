@@ -2,7 +2,7 @@ import React from 'react';
 import Card from '../../Components/Cards-Recipe/Card';
 import './RecipeList.css';
 
-const BestRecipe = () => {
+const RecipeList = () => {
 
 const AllRecipes = [
         {id: 1, title: 'Broccoli Salad with Bacon', 
@@ -12,19 +12,19 @@ const AllRecipes = [
         {id: 3, title: 'Classic Potato Salad', 
         image: 'https://www.inspiredtaste.net/wp-content/uploads/2016/10/Easy-Potato-Salad-Recipe-1-1200.jpg'},
         {id: 4, title: 'Cherry Cobbler on The Grill', 
-        image: 'https://static.onecms.io/wp-content/uploads/sites/44/2019/08/27044846/6440433.jpg'}]
+        image: 'https://2.bp.blogspot.com/-MMA4FfuTyJE/Wr0ZDpWvHaI/AAAAAAAAxu4/wjjkLPw83Ck-_4Jfo1xaH_EWJz1DGEmvACEwYBhgL/s1600/Bourbon%2BCherry%2BCobbler%2BSmoked%2BIce%2BCream%2BDSC_0125.jpg'}]
 
     return (
-        <div className='BestRecipe'>
-            <div className='BestRecipe-text-header'>
+        <div className='RecipeList'>
+            <div className='RecipeList-text-header'>
             <h2>Our Best Recipes</h2>
             </div>
-            <div className='BestRecipe-text'>
+            <div className='RecipeList-text'>
             <h3>Far far away, behind the word mountains, far from the countries
                 <br />
             Vokalia and Consonantia, there live the blind texts.</h3>
             </div>
-            <div className='BestRecipe-card'>
+            <div className='RecipeList-card'>
             {AllRecipes.map((recipe, i) => { 
                 return( 
                 <Card title={recipe.title} image={recipe.image} /> )})}
@@ -32,4 +32,4 @@ const AllRecipes = [
         </div>
         )}
 
-export default BestRecipe;
+export default RecipeList;
