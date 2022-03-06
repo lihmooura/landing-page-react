@@ -12,9 +12,19 @@ This project was bootstrapped with Create React App.
 - Local Storage
 ##
  Landing Page - view on large screens
+ 
+![LandingPage-large](https://user-images.githubusercontent.com/88293904/156934141-cda1106a-2358-4f86-9525-9c1388be5593.gif)
+##
+Landing Page - view on small screens
 
-![LandingPage](https://user-images.githubusercontent.com/88293904/156933391-5e558e66-4d63-48a1-98a5-329add4f39c9.gif)
+![LandingPage-small](https://user-images.githubusercontent.com/88293904/156934148-81f64ccd-9894-4c8a-82c4-db4f47a532d3.gif)
+##
+Register Page - view on large screens
+
+![RegisterPage-large](https://user-images.githubusercontent.com/88293904/156934447-92356908-723b-40af-91fc-476b9cb650c9.gif)
+##
+Register Page - view on small screens
+
+![RegisterPage-small](https://user-images.githubusercontent.com/88293904/156934773-1845016e-678a-403a-a0e3-aaf3874f7f05.gif)
 
 
-
-![Landing page small](https://user-images.githubusercontent.com/88293904/156933814-31af1c22-c67c-4233-8793-39c7bc2f8022.gif)
