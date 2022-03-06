@@ -21,7 +21,7 @@ Landing Page - view on small screens
 ##
 Register Page - view on large screens
 
-![RegisterPage-large](https://user-images.githubusercontent.com/88293904/156934447-92356908-723b-40af-91fc-476b9cb650c9.gif)
+![RegisterPage-large](https://user-images.githubusercontent.com/88293904/156934974-e789cfb7-188f-4556-9e07-df05bd53298a.gif)
 ##
 Register Page - view on small screens
 
