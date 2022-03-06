@@ -4,12 +4,12 @@ This project was bootstrapped with Create React App.
 
 ## What was used to build:
 
-[x] JavaScript
-[x] CSS
-[x] Media Query
-[x] Bootstrap
-[x] Reusable components
-[x] Local Storage
+- [x] JavaScript
+- [x] CSS
+- [x] Media Query
+- [x] Bootstrap
+- [x] Reusable components
+- [x] Local Storage
 ##
  Landing Page - view on large screens
  
