@@ -1,13 +1,16 @@
 import React from 'react';
-import './App.css';
-import BestServices from './Screens/BestServices - Third/BestServices';
-import HomePage from './Screens/Home - First/HomePage';
-import JoinOurMembership from './Screens/JoinOurMembership - Fifth/JoinOurMembership';
+import './App.css'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import ReadOurBlog from './Screens/ReadOurBlog - Fourth/ReadOurBlog';
-import RecipeList from './Screens/RecipeList - Second/RecipeList';
+
+import BestServices from './Screens/Services/BestServices';
+import HomePage from './Screens/Home/HomePage';
+import JoinOurMembership from './Screens/Membership/JoinOurMembership';
+import ReadOurBlog from './Screens/About/ReadOurBlog';
+import RecipeList from './Screens/RecipeList/RecipeList';
+import Register from './Screens/RegisterPage/Register';
+
 import NavBar from './Components/NavBar/NavBar';
-import Register from './Screens/RegisterPage/Register'
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -21,10 +24,11 @@ function App() {
         <BestServices />
         <ReadOurBlog />
         <JoinOurMembership />
+        <Footer />
     </Route>
     <Route exact path="/register">
         <Register />
-        </Route>
+    </Route>
     </Switch>
   </Router>
      </div>

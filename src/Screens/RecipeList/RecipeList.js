@@ -27,7 +27,10 @@ const AllRecipes = [
             <div className='RecipeList-card'>
             {AllRecipes.map((recipe, i) => { 
                 return( 
-                <Card title={recipe.title} image={recipe.image} /> )})}
+                <Card title={recipe.title} image={recipe.image} /> )
+                }
+            )
+        }
             </div>
         </div>
         )}

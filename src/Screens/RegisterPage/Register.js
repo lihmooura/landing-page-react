@@ -1,16 +1,16 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
-import './Register.css';
-import bg from './bg.svg';
-import './Register-responsive.css';
+import bg from './Assets/bg.svg';
+import './CSS/Register.css';
+import './CSS/Register-responsive.css';
 
 const Register = () => {
 
-    
     const {register, handleSubmit, setValue, setFocus} = useForm();
 
     const onSubmit = (e) => {
         localStorage.setItem("information", JSON.stringify(e));
+        console.log(e)
     }
     const checkCEP = (e) => {
         const cep = e.target.value.replace(/\D/g, '');
@@ -26,6 +26,7 @@ const Register = () => {
     useEffect(() => {
         wasFormFilled() 
       });
+
     const wasFormFilled = () => { 
         let information = localStorage.getItem('information')
         if (information)  { 

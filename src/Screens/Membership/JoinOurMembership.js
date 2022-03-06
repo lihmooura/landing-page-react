@@ -1,7 +1,7 @@
 import React from 'react';
 import bg from './Assets/bloco_final_image.svg';
-import './JoinOurMembership.css';
-import './JoinOurMembership-responsive.css';
+import './CSS/JoinOurMembership.css';
+import './CSS/JoinOurMembership-responsive.css';
 
 const JoinOurMembership = () => {
     return (

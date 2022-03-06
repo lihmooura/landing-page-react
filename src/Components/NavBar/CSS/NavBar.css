@@ -3,17 +3,24 @@
 .Navbar {
   display: flex;
   justify-content: space-between;
+  text-decoration: none !important;
 }
 .nav-logo { 
   display: flex;
   width: 26%;
   justify-content: center;
+  text-decoration: none !important;
+
+}
+.link { 
+  text-decoration: none !important;
 }
 
 .Navbar h2 {
   margin-top: 40px;
   color: rgb(180, 230, 106);
   font-size: 28px;
+  text-decoration: none !important;
 }
 
 /* NAVBAR OPTIONS */

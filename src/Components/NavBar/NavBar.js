@@ -11,16 +11,18 @@ const NavBar = () => {
     return (
         <div className="Navbar">
             <div className='nav-logo'>
+                <Link className='link' to='/'>
                 <h2>Healthy Food</h2>
+                </Link>
             </div>
             <div className="NavOptions">
                 <a href='/'>HEALTHY RECIPES</a>
                 <a href='/'>BLOG</a>
                 <a href='/'>JOIN</a>
                 <Link to='/register'>
-                <button>REGISTER
-                </button>
-                    </Link>     
+                    <button>REGISTER
+                    </button>
+                </Link>     
             </div>
             
             <div className='iconDrop' 
