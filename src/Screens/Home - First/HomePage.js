@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from '../../Components/NavBar/NavBar';
 import { GoSearch } from 'react-icons/go';
 import './CSS/home-responsive.css'
 import bg from './Assets/bg.svg'
@@ -8,7 +7,6 @@ import './CSS/HomePage.css'
 const HomePage = () => {
     return (
         <div>
-            <NavBar />
         <div className='Home'>
         <img className='home-image-background' src={bg} alt="bg" />
             </div>

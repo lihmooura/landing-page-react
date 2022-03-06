@@ -1,35 +1,33 @@
 import React from 'react';
-import HomePage from './Screens/Home - First/HomePage'
-import './App.css'
-import RecipeList from './Screens/RecipeList - Second/RecipeList'
+import './App.css';
 import BestServices from './Screens/BestServices - Third/BestServices';
-import ReadOurBlog from './Screens/ReadOurBlog - Fourth/ReadOurBlog';
+import HomePage from './Screens/Home - First/HomePage';
 import JoinOurMembership from './Screens/JoinOurMembership - Fifth/JoinOurMembership';
-import Footer from './Components/Footer/Footer';
-
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import ReadOurBlog from './Screens/ReadOurBlog - Fourth/ReadOurBlog';
+import RecipeList from './Screens/RecipeList - Second/RecipeList';
+import NavBar from './Components/NavBar/NavBar';
+import Register from './Screens/RegisterPage/Register'
 
 function App() {
   return (
     <div className="App">
-      <div>
-      <HomePage />
-      </div>
-      <div>
-      <RecipeList />
-      </div>
-      <div>
+  <Router>
+    <NavBar />
+    <Switch>
+    <Route exact path="/">
+        <HomePage />
+        <RecipeList />
         <BestServices />
-      </div>
-      <div>
         <ReadOurBlog />
-      </div>
-      <div>
         <JoinOurMembership />
-      </div>
-      <div>
-        <Footer />
-      </div>
-    </div>
+    </Route>
+    <Route exact path="/register">
+        <Register />
+        </Route>
+    </Switch>
+  </Router>
+     </div>
   );
 }
 

@@ -2,9 +2,6 @@
     .BestService {
         justify-content: center;
     }
-    .BestService-img {
-        margin-left: -10%
-    }
 }
 @media only screen and (max-width: 1094px) {
     .BestService-text  {
