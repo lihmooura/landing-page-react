@@ -1,6 +1,6 @@
 
 .RecipeList {
-    background-color: rgb(240, 236, 236);
+    background-color: whitesmoke;
     height: 100vh;
     display: flex;
     flex-direction: column;
