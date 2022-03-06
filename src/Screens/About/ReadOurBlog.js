@@ -48,14 +48,16 @@ const ReadOurBlog = () => {
         author: 'Mike Jackson'}]
 
     return (
-        <div className='ReadOurBlog'>
-            <div className='ReadOurBlog-header'>
-            <h2>Read Our Blog</h2>
-            </div>
-            <div className='ReadOurBlog-text'>
-            <h3>Far far away, behind the word mountains, far from the countries
-                <br />
-            Vokalia and Consonantia, there live the blind texts.</h3>
+        <div className='blog'>
+            <div className='blog-text-wrapper'>
+                <div className='blog-header'>
+                <h2 className='x-large-text bold black'>Read Our Blog</h2>
+                </div>
+                <div className='blog-text'>
+                <h3 className='small-text regular'>Far far away, behind the word mountains, far from the countries
+                    <br />
+                Vokalia and Consonantia, there live the blind texts.</h3>
+                </div>
             </div>
             
             <Carousel

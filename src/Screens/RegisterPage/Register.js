@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
-import bg from './Assets/bg.svg';
+import bg from '../../Assets/background/nutritionBg.svg';
 import './CSS/Register.css';
 import './CSS/Register-responsive.css';
 

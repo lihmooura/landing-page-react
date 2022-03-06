@@ -1,7 +1,7 @@
 import React from 'react';
 import { GoSearch } from 'react-icons/go';
 import './CSS/home-responsive.css'
-import bg from './Assets/bg.svg'
+import bg from '../../Assets/background/nutritionBg.svg'
 import './CSS/HomePage.css'
 
 const HomePage = () => {

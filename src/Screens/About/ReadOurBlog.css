@@ -1,21 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-.ReadOurBlog {
+.blog {
     height: 100vh;
     background: rgb(242, 237, 237);
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+
 }
 
-.ReadOurBlog-header {
-    font-weight: 300;
-    font-size: 22px;
-    color: rgba(0, 0, 0, 0.708);
-    text-align: center;
+.blog-text {
     padding: 20px;
-}
 
-.ReadOurBlog-text h3{
-    font-weight: 100;
-    font-size: 16px;
-    padding: 20px;
-    text-align: center;
 }

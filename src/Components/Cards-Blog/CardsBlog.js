@@ -8,10 +8,10 @@ const CardBlogs = ({title, image, imageId, author}) => {
         <div className='card-wrapper'>       
     <div className='card'>
         <img className='card-img' src ={`${image}`} />
-        <h5 className='card-title'>{ title }</h5>
+        <h5 className='card-title medium-text semi-bold'>{ title }</h5>
         <div className='card-Id'>
         <img className='card-imgId' src = {`${imageId}`}/>
-        <p>{ author }</p>
+        <p className='small-text regular'>{ author }</p>
         </div>
         </div>
         </div>

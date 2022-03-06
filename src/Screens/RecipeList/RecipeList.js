@@ -16,15 +16,17 @@ const AllRecipes = [
 
     return (
         <div className='RecipeList'>
-            <div className='RecipeList-text-header'>
-            <h2>Our Best Recipes</h2>
+            <div className='recipe-text'>
+       
+                <h2 className='x-large-text bold'>Our Best Recipes</h2>
+    
+   
+                <h3 className='small-text text-details'>Far far away, behind the word mountains, far from the countries
+                    <br />
+                Vokalia and Consonantia, there live the blind texts.</h3>
+    
             </div>
-            <div className='RecipeList-text'>
-            <h3>Far far away, behind the word mountains, far from the countries
-                <br />
-            Vokalia and Consonantia, there live the blind texts.</h3>
-            </div>
-            <div className='RecipeList-card'>
+            <div className='card-list'>
             {AllRecipes.map((recipe, i) => { 
                 return( 
                 <Card title={recipe.title} image={recipe.image} /> )

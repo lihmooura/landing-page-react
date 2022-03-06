@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .Card {
     background: rgba(255, 255, 255, 0.899);
     border-radius: 10px;
     border-width: 1px solid white;
     display: flex;
-    width: 500px;
+    width: 550px;
   }
 
 .Card-info { 

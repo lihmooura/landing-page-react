@@ -1,5 +1,5 @@
 import React from 'react';
-import bg from './Assets/bloco_final_image.svg';
+import bg from '../../Assets/background/membershipBg.svg';
 import './CSS/JoinOurMembership.css';
 import './CSS/JoinOurMembership-responsive.css';
 
@@ -9,7 +9,8 @@ const JoinOurMembership = () => {
         >
 
           <div className='Join-page-text'>  
-             <h2>Join our membership <br/>
+          <div className='join-text'>
+             <h2 className='large-text'>Join our membership <br/>
                 to get a special offer <br/>
                 </h2>  
               <div className='Join-page-input'>
@@ -18,8 +19,9 @@ const JoinOurMembership = () => {
 
               </div>
               </div>
+              </div>
               <div className='Join-page-bg'>
-              <img  src={bg} alt="bg" />
+              <img  className='bg'  src={bg} alt="bg" />
               
               </div>
               </div>

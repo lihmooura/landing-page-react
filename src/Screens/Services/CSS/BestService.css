@@ -1,37 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-.BestService{
+.service-wrapper {
     height: 100vh;
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
-.BestService-text {
+.service-image-wrapper { 
+    width: 50%;
+}
+
+.service-image { 
+    height: 100vh;
+}
+
+.service-text-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 50%;
 }
 
-.BestService-text h2 {
-    font-size: 32px;
-    font-weight: 500;
+.service-text-wrapper h2 {
     margin-left: 15px;
     margin-bottom: 10px;
     color:rgba(0, 0, 0, 0.708);
 }
 
-.BestService-text p {
-    font-size: 16px;
-    font-weight: 100;
+.service-text-wrapper p {
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-.BestService-text button {
+.service-text-wrapper button {
     color: white;
     background-color: rgb(188, 220, 140);
     border-color: rgb(172, 211, 127);
@@ -41,4 +43,5 @@
     font-size: 16px;
     margin-left: 20px;
     box-shadow: none;
+    border-radius: 8px;
 }
