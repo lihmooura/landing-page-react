@@ -31,3 +31,5 @@ Register Page - view on small screens:
 ![RegisterPage-small](https://user-images.githubusercontent.com/88293904/156934773-1845016e-678a-403a-a0e3-aaf3874f7f05.gif)
 
 
+
+
